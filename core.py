@@ -350,4 +350,5 @@ test_monster = Monster_factory()
 #print(test_item.name)
 #test_item.pick_up()
 
-Game()
+if __name__ == '__main__':
+    Game()

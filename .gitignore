@@ -14,3 +14,9 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
+
+# Ignore VIM temp files
+*.swp
+
+# Ignore Python cache files
+__pycache__
